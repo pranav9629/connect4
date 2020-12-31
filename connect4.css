@@ -20,3 +20,19 @@ th,td{
   border-radius: 50%;
   display: inline-block;
 }
+
+.blueDot {
+  height: 70%;
+  width: 65%;
+  background-color: #3443eb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.redDot {
+  height: 70%;
+  width: 65%;
+  background-color: #fc0400;
+  border-radius: 50%;
+  display: inline-block;
+}
