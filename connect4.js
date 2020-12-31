@@ -5,22 +5,7 @@ var cells = $("span");
 var header = $("th");
 var clicks = [0,0,0,0,0,0,0];
 var turnChecker = 0;
-
-// button.eq(0).click(function(){
-//   var i = 35-clicks*7;
-//   clicks++;
-//   // console.log(clicks);
-//   if (i%2 === 0) {
-//     cells.eq(i).addClass("redDot");
-//   }else {
-//     cells.eq(i).addClass("blueDot");
-//   }
-// });
-
-// button.eq(0).click(function(){
-//   clicks[0] = clicks[0]+1;
-//   console.log(clicks);
-// });
+var restart = $(".restart");
 
 function boardFill(n) {
   button.eq(n).click(function(){
@@ -45,3 +30,7 @@ boardFill(3);
 boardFill(4);
 boardFill(5);
 boardFill(6);
+
+restart.click(function() {
+  location.reload(true);
+});
