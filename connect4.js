@@ -23,13 +23,11 @@ function boardFill(n) {
   });
 }
 
-boardFill(0);
-boardFill(1);
-boardFill(2);
-boardFill(3);
-boardFill(4);
-boardFill(5);
-boardFill(6);
+for (i=0;i<6;i++){
+  boardFill(i);
+}
+
+
 
 restart.click(function() {
   location.reload(true);
